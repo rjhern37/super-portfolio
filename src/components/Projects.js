@@ -94,6 +94,7 @@ export const Projects = () => {
                 <div className={isVisible ? "animate__animated animate__slideInLeft" : ""}>
                   <h2>My Work</h2>
                   <p>Below are a selection of websites and projects that demonstrate my expertise and dedication to delivering exceptional user experiences.</p>
+                  <p>Here is a curated selection of both professional and personal projects that highlight my expertise, showcasing my commitment to delivering exceptional user experiences and innovative solutions.</p>
                 </div>
               }
             </TrackVisibility>
