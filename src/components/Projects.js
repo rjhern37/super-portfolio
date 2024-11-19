@@ -1,9 +1,17 @@
 import { Container, Col, Row, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import "react-multi-carousel/lib/styles.css";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/Color-game-shot.png";
+import projImg2 from "../assets/img/todo-list.png";
+import projImg3 from "../assets/img/music.png";
+import webImg1 from "../assets/img/weather-tech-logo.png";
+import webImg2 from "../assets/img/ventra-logo.png";
+import webImg3 from "../assets/img/snapon-logo.png";
+import webImg4 from "../assets/img/goldengate-logo.png";
+import webImg5 from "../assets/img/vre-logo.png";
+import webImg6 from "../assets/img/battelle-logo.png";
+import webImg7 from "../assets/img/packers-everywhere-logo.png";
+import webImg8 from "../assets/img/metlife-stadium-logo.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -12,57 +20,65 @@ export const Projects = () => {
 
   const websites = [
     {
-      title: "Web 1",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "WeatherTech",
+      description: "Retail & ECommerce",
+      imgUrl: webImg1,
     },
     {
-      title: "Web 2",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Ventra",
+      description: "Transportation",
+      imgUrl: webImg2,
     },
     {
-      title: "Web 3",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Snap-On",
+      description: "Retail & ECommerce",
+      imgUrl: webImg3,
     },
     {
-      title: "Retail Business",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Golden Gate Bridge",
+      description: "Transportation",
+      imgUrl: webImg4,
     },
     {
-      title: "Transportation Agency",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Virgina Railway Express (VRE)",
+      description: "Transportation",
+      imgUrl: webImg5,
+    },
+    {
+      title: "Battelle",
+      description: "Health & Sciences",
+      imgUrl: webImg6,
+    },
+    {
+      title: "Packers Everywhere",
+      description: "Entertainment",
+      imgUrl: webImg7,
+    },
+    {
+      title: "Metlife Stadium",
+      description: "Entertainment",
+      imgUrl: webImg8,
     },
   ];
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "RGB Color Game",
+      description: "Guess the color by RGB code",
       imgUrl: projImg1,
+      href: "https://rjhern37.github.io/Color-Game/"
     },
     {
-      title: "Corporation",
-      description: "Design & Development",
+      title: "To-do List",
+      description: "A Simple To-do list application",
       imgUrl: projImg2,
+      href: "https://rjhern37.github.io/New-Todo-List/"
     },
     {
-      title: "E-Commerce Business",
-      description: "Design & Development",
+      title: "Music Clone",
+      description: "Simply press keys on your keyboard of choice and watch the musical vibrations",
       imgUrl: projImg3,
-    },
-    {
-      title: "Retail Business",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Transportation Agency",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      href: "https://rjhern37.github.io/Music-clone/"
     },
   ];
 

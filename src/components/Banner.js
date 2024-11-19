@@ -69,8 +69,7 @@ export const Banner = () => {
                     <span className="wrap">{text}</span>
                   </h1>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    With a solid foundation in both front-end and back-end technologies, I specialize in building responsive, high-performance websites and applications that not only meet but exceed client expectations. My goal is to leverage my technical expertise and problem-solving abilities to deliver innovative, scalable solutions that enhance user engagement and drive business growth.
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Let's Connect <ArrowRightCircle />

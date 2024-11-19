@@ -41,7 +41,7 @@ export const Skills = () => {
                 {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__slideInDown" : ""}>
                     <h2>Skills</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec ornare est. Pellentesque eget finibus ligula, a vulputate dui.</p>
+                    <p>These represent some of my core strengths and most valuable attributes.</p>
                   </div>
                 }
               </TrackVisibility>
@@ -52,15 +52,23 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={meter2} alt="image" />
-                  <h5>Brands</h5>
+                  <h5>UX/UI</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="image" />
-                  <h5>Logo</h5>
+                  <h5>Accessibility</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="image" />
-                  <h5>Web Development</h5>
+                  <h5>Frameworks</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="image" />
+                  <h5>Responsive Design</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="image" />
+                  <h5>Version control</h5>
                 </div>
               </Carousel>
             </div>
